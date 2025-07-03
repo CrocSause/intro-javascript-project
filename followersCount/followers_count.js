@@ -18,3 +18,9 @@ function displayCount() {
     document.getElementById('countDisplay').innerHTML=count;
 }
 
+function resetCount() {
+    count = 0;
+    displayCount();
+    alert("Your followers have been reset.")
+}
+
